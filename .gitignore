@@ -1,0 +1,56 @@
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local by Flywheel
+Local Sites/
+local-config.json
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backup-*/
+wp-content/ai1wm-backups/
+wp-content/debug.log
+
+# Sauvegardes
+backups/
+*.tar.gz
+*.sql
+*.sql.gz
+
+# Tests
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
